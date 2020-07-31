@@ -53,12 +53,58 @@ class SchoolTaskManagerTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    
+    func task_addTaskElement_sizeIsOne(){
+        //store a task
+    }
+    
+    func task_updateTaskElementDueDate_DateIsFirstOfJan(){
+        //edit a task due date to first of jan
+    }
+    
+    func task_updateTaskElementName_NameIsAssignment(){
+        //edit a task name to be "Assignment"
+    }
+    
+    func task_updateTaskElementWeight_WeightIsFifty(){
+        //edit a task weight to be 50%
+    }
+    
+    func task_updateTaskElementNote_NoteIsHelloWorld(){
+        //edit a task note to be "Hello World"
+    }
+    
+    func task_deleteTaskElement_assertIsNull(){
+        //delete a task
+    }
+    
+    func task_sortTaskAlphabetically_True(){
+        
+    }
+    
+    func task_sortTaskDueDate_True(){
+        
+    }
+    
+    func task_sortTaskCreationDate_True(){
+        
+    }
+    
+    func task_sortTaskWeight_True(){
+        
+    }
+    
+    func subject_addSubjectElement_sizeIsOne(){
+        //store a subject
+    }
+    
+    func subject_addTaskToSubject_sizeIsOne(){
+        //store a task within a subject
+    }
+    
+    func subTask_addSubTaskToTask_sizeIsOne(){
+        //store a subtask within a task
     }
 
 }
